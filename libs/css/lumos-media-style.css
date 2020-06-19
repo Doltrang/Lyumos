@@ -1,0 +1,291 @@
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 1210px) {
+}
+
+@media (max-width: 992px) {
+
+    .frame-row p, .offer-row p, .offer-price a {
+        font-size: 1.2vw;
+    }
+
+    .offer-price h3 {
+        font-size: 1.5vw;
+    }
+
+    .offer-price h3 span {
+        font-size: 2.5vw;
+    }
+
+    .offer-price a {
+        padding: 15px 30px;
+    }
+
+    .notes-lessons h4 {
+        font-size: 12px;
+    }
+
+    .notes-lessons > div {
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 920px) {
+
+
+    .notes-lessons h4 {
+        width: 100%;
+    }
+
+    .plus-row {
+        margin-top: 30px;
+    }
+
+    .pdf-price a {
+        width: 70%;
+        padding: 10px 0
+    }
+
+    .pdf-price p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .pdf-price {
+        margin-top: 30px;
+        padding: 20px 0 0;
+    }
+
+    .oun-cabin h2 {
+        font-size: 14px;
+        margin: 30px 0 25px;
+    }
+
+    .oun-cabin-points {
+        min-height: 210px;
+    }
+
+    .oun-cabin-points img {
+        width: 50%;
+    }
+
+    .left-footer {
+        max-height: 100px;
+    }
+
+    footer .left-footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    .notes-lessons > div,
+    .plus-items > div {
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .logo-info {
+        font-size: 1.8vw;
+    }
+
+    .logo {
+        width: 45%;
+    }
+
+    .header-text {
+        font-size: 1.5vw;
+        line-height: 15px;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .frame-row p, .offer-row p, .offer-price a {
+        font-size: 1.8vw;
+    }
+
+    .pdf-row h2, .notes h2, .plus h2 {
+        font-size: 16px;
+    }
+
+    .notes-lessons img {
+        width: 40%;
+    }
+
+    .notes-lessons h4 {
+        min-height: auto;
+    }
+
+    .plus-row {
+        padding: 20px 0 10px;
+    }
+
+    .plus-items img {
+        width: 60%;
+    }
+
+    .oun-cabin-points {
+        min-height: 190px;
+    }
+
+    footer .bottom-footer {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .logo {
+        width: 15%;
+        margin: auto;
+        /*position: relative;*/
+    }
+    .logo-cont{
+        position: relative;
+    }
+    .logo-cont:after{
+        position: absolute;
+        width: 30%;
+        top: 50%;
+        height: 2px;
+        background-color: #FAD264;
+        left: 0;
+        content: " ";
+        display: block;
+
+    }
+    .logo-cont:before{
+        position: absolute;
+        width: 30%;
+        top: 50%;
+        height: 2px;
+        background-color: #FAD264;
+        right: 0;
+        content: " ";
+        display: block;
+
+    }
+
+    .logo-info {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    header i.fa-star {
+        font-size: 13px;
+    }
+
+    div.stars::before {
+        height: .2vw;
+    }
+
+    .frame-row p, .offer-row p, .offer-price a {
+        font-size: 2.2vw;
+    }
+
+    .offer-price h3 {
+        font-size: 2.5vw;
+    }
+
+    .offer-price h3 span {
+        font-size: 3vw;
+    }
+
+    .offer-price a {
+        padding: 15px 30px;
+    }
+
+    .oun-cabin-points ul,
+    .oun-cabin-points img {
+        position: inherit;
+        width: 100%;
+    }
+
+    .oun-cabin-points img {
+        width: 60%;
+        margin: auto;
+        display: block;
+    }
+    footer .left-footer{
+        max-height: 140px;
+    }
+    footer .right-footer{
+        margin-top: 20px;
+        text-align: center;
+    }
+    footer .left-footer div:nth-child(1){
+        padding-left: 10px;
+        border-left: 2px solid orange;
+    }
+    footer .right-footer {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .pdf-row {
+        margin: 20px 0 0;
+    }
+}
+@media (max-width: 420px){
+   .offer-row p {
+        font-size: 12px;
+    }
+}
+@media (max-width: 375px) {
+    .frame-row p, .offer-row p {
+        font-size: 3.5vw;
+    }
+
+    .offer-price h3 {
+        font-size: 4vw;
+    }
+
+    .offer-price h3 span {
+        font-size: 4vw;
+    }
+
+    .offer-price a {
+        padding: 15px 30px;
+        font-size: 3vw;
+    }
+
+    .pdf-row h2, .notes h2, .plus h2 {
+        font-size: 14px;
+    }
+
+    .notes-lessons img {
+        width: 50%;
+    }
+
+    .oun-cabin-points img {
+        width: 70%;
+    }
+    footer .left-footer {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+
+}
+
+@media (max-width: 285px) {
+    .offer-price a {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .pdf-price a {
+        width: 80%;
+        font-size: 12px;
+    }
+}

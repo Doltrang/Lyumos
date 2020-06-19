@@ -1,0 +1,30 @@
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato2OFL/Lato-Regular.ttf');
+}
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ChinaCyr';
+    src: url('../fonts/China-cyrillic/ChinaCyr.ttf');
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Lato;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+

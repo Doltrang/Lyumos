@@ -1,0 +1,330 @@
+@import "lumos-custom.css";
+@import "lumos-media-style.css";
+
+header {
+    background-image: url("../images/header-background.png");
+    background-size: cover;
+    color: white;
+}
+
+.logo-row {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.logo-info {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.2vw;
+    line-height: 24px;
+}
+
+.logo {
+    width: 25%;
+}
+
+header h1, header h2 {
+    font-size: 3vw;
+}
+
+header h2 {
+    margin-top: 10px;
+    color: #FAD264;
+    line-height: 2vw;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+header i.fa-star {
+    font-size: .7vw;
+    color: #FAD264;
+}
+
+div.stars::before {
+    content: '';
+    position: absolute;
+    height: .1vw;
+    background-color: #FAD264;
+    width: 80%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text {
+    font-size: 1vw;
+    line-height: 1.4vw;
+}
+
+.header-text span {
+    color: #FAD264;
+}
+
+.header-img {
+    width: 90%;
+}
+
+.frame-row {
+    background-color: #FAD264;
+}
+
+.frame-row p {
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-size: 1vw;
+}
+
+.offer-row {
+    background-image: url("../images/fon2.png");
+    background-size: cover;
+    padding: 10px 0 30px 0;
+}
+
+.offer-row img {
+    width: 40px;
+}
+
+.offer-row p {
+    font-size: .95vw;
+}
+
+.offer-price h3 {
+    font-size: .95vw;
+    /*line-height: 25px;*/
+}
+
+.offer-price h3 span {
+    font-size: 2vw;
+    color: #FAD264;
+}
+
+.offer-price a {
+    padding: 20px 40px;
+    background-color: #FAD264;
+    border-radius: 30px;
+    font-size: .95vw;
+    margin: 10px auto 10px;
+}
+
+.offer-price p {
+    font-size: .95vw;
+    margin-bottom: 0.5rem;
+}
+
+.pdf-row {
+    margin: 45px 0 20px;
+}
+
+.pdf-row h2,
+.notes h2,
+.plus h2 {
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+.pdf-row h2 span,
+.notes h2 span,
+.plus h2 span {
+    color: #E20505;
+}
+
+.pdf-row img {
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+.pdf-row p {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.notes {
+    padding-top: 35px;
+}
+
+.notes-lessons {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.plus-items {
+    align-items: center;
+}
+
+.notes-lessons > div {
+    padding-bottom: 45px;
+    height: 100%;
+    border: 3px solid #FAD264;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+.plus-items > div {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0 10px;
+}
+
+.notes-lessons h4 {
+    min-height: 80px;
+    font-family: 'Lato';
+    font-size: 14px;
+    line-height: 20px;
+    width: 70%;
+    /*margin: auto;*/
+}
+
+.notes-lessons img {
+    width: 95%;
+    /*margin-bottom: 25px;*/
+}
+
+.plus-row {
+    background-color: #EBEBEB;
+    margin-top: 70px;
+    padding: 40px 0 25px;
+}
+
+.plus-items img {
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.notes-lessons p,
+.plus-items {
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.pdf-price {
+    border: 3px solid #E20505;
+    margin-top: 40px;
+    padding: 20px 0 40px;
+}
+
+.price {
+    color: #E20505;
+}
+
+.pdf-price a {
+    width: 50%;
+    color: black;
+    text-decoration: none;
+    /*border: none;*/
+    background-color: #FAD264;
+    text-align: center;
+    padding: 17px 0;
+    border-radius: 30px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    display: block;
+    margin: auto;
+}
+
+.pdf-price p {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.oun-cabin {
+    background-image: url("../images/back-cabin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.oun-cabin h2 {
+    font-size: 1.2vw;
+    font-weight: bold;
+    margin: 40px 0 30px;
+}
+
+.oun-cabin h2 span {
+    color: #E20505;
+}
+
+.oun-cabin-points {
+    position: relative;
+    min-height: 270px;
+}
+
+
+.oun-cabin-points ul {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    padding: 0;
+}
+
+.oun-cabin-points ul li {
+    list-style: none;
+    font-size: 13px;
+
+}
+
+.oun-cabin-points ul li:first-child {
+    padding-bottom: 10px;
+}
+
+.oun-cabin-points ul li::before {
+    content: "\2014";
+    color: #FAD264;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-weight: bold;
+}
+
+.oun-cabin-points img {
+    width: 55%;
+    bottom: 0;
+    position: absolute;
+}
+
+footer {
+    background-image: url("../images/footer-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 20px;
+    /*text-transform: uppercase;*/
+}
+
+footer > div p {
+    margin: 0;
+    padding-bottom: 3px;
+}
+
+footer > div {
+    justify-content: space-between;
+}
+
+footer .left-footer {
+    font-size: 16px;
+    padding: 0;
+
+}
+
+footer .left-footer div:nth-child(2) {
+    text-transform: uppercase;
+    padding-left: 10px;
+    border-left: 2px solid #FAD264;
+
+}
+
+footer .right-footer {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.539261);
+
+}
+
+.left-footer > div p:nth-child(2) {
+    color: #FAD264;
+    text-decoration: underline;
+}
+
+footer .bottom-footer {
+    font-size: 11px;
+    margin-top: 10px;
+}
